@@ -1,7 +1,9 @@
 # MqttWithWioLte
 WioLTEを使ってMQTTでデータを飛ばします。
 
-WioLTEは、待機時にSTM32F4の省電力モードを使います。
+WioLTEは、待機時にSTM32F405の省電力モード（スタンバイモード）に入るため、5V50mA前後の待機電流となります。
+通信時には、あらかじめタイマーでセットした時刻にマイコンが復帰し、LTE網にアタッチします。
+通信終了後、再び省電力モードへ戻ります。
 
 
 ![overview image](https://github.com/poponta/MqttWithWioLte/blob/master/class.png)
