@@ -3,6 +3,8 @@ WioLTEを使ってMQTTでデータを飛ばします。
 
 WioLTEは、待機時にSTM32F4の省電力モードを使います。
 
+#　クラス図
+![overview image](https://github.com/poponta/MqttWithWioLte/blob/master/class.png)
 
 # 注意事項
 
