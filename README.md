@@ -1,0 +1,2 @@
+# MqttWithWioLte
+WioLTEを使ってMQTTでデータを飛ばします。WioLTEは、待機時にSTM32F4の省電力モードを使います。
