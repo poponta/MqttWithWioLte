@@ -12,9 +12,9 @@ namespace ConstantValue {
   const char APN[] = "soracom.io";
   const char USERNAME[] = "sora";
   const char PASSWORD[] = "sora";
-  const char MQTT_SERVER_HOST[] = "cloudrock.tech";
+  const char MQTT_SERVER_HOST[] = "yourserver";
   const char NTP_SERVER[] = "ntp.nict.jp";
-  const char TOPIC_NAME[] = "iTrashCan/test";
+  const char TOPIC_NAME[] = "topicid";
   const uint16 MQTT_SERVER_PORT = 1883;
   const int CLIENT_ID_SIZE = 32;
   const time_t WAKE_UP_INTERVAL = 15 * 60;  // 15(min) * 60(sec)
